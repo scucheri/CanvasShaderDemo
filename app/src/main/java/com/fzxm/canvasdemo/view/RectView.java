@@ -34,7 +34,7 @@ public class RectView extends View {
         paint.setColor(getResources().getColor(android.R.color.holo_blue_light));
 
         //绘制普通矩形
-        canvas.drawRect(100,100,300,300,paint);
+        canvas.drawRect(100,100,300,400,paint);// x0,y0为左上角的顶点的坐标，x1，y1为右下角的顶点的坐标
         //RectF rectF = new RectF(100,100,300,300);
         //canvas.drawRect(rectF,paint);
 

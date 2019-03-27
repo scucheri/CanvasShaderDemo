@@ -55,7 +55,7 @@ public class ComposeShaderView extends View {
         }, null, Shader.TileMode.MIRROR);
 
         // 混合渲染 将两个效果叠加,使用PorterDuff叠加模式
-        ComposeShader mComposeShader = new ComposeShader(mBitmapShader, mLinearGradient, PorterDuff.Mode.MULTIPLY);
+        ComposeShader mComposeShader = new ComposeShader(mBitmapShader, mLinearGradient, PorterDuff.Mode.DST_IN);
         Paint mPaint = new Paint();
 
         mPaint.setShader(mComposeShader);

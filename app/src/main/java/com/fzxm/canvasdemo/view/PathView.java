@@ -42,23 +42,23 @@ public class PathView extends View {
         path.arcTo(rectF2,-180,225,false);
         path.lineTo(400,542);
         canvas.drawPath(path,paint);
-
-        /*//画三角形(未封闭)
-        paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(10);
-        path.moveTo(200,600);
-        path.lineTo(400,600);
-        path.lineTo(300,700);
-        canvas.drawPath(path,paint);
-        //画三角形(封闭)
-        paint.setStyle(Paint.Style.STROKE);
-        path.moveTo(500,600);
-        path.lineTo(700,600);
-        path.lineTo(600,700);
-        path.close();
-        canvas.drawPath(path,paint);*/
-
-        //画三角形(填充)
+        //
+        ///*//画三角形(未封闭)
+        //paint.setStyle(Paint.Style.STROKE);
+        //paint.setStrokeWidth(10);
+        //path.moveTo(200,600);
+        //path.lineTo(400,600);
+        //path.lineTo(300,700);
+        //canvas.drawPath(path,paint);
+        ////画三角形(封闭)
+        //paint.setStyle(Paint.Style.STROKE);
+        //path.moveTo(500,600);
+        //path.lineTo(700,600);
+        //path.lineTo(600,700);
+        //path.close();
+        //canvas.drawPath(path,paint);
+        //
+        ////画三角形(填充)
         paint.setStyle(Paint.Style.FILL);
         path.moveTo(200,800);
         path.lineTo(400,800);

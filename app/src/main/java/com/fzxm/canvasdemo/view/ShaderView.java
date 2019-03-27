@@ -118,30 +118,30 @@ public class ShaderView extends View {
         //paint.setShader(sweepGradient);
         //canvas.drawCircle(centerX, centerY, radius/2, paint);
 
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
-        int bitmapWidth = bitmap.getWidth();
-        int bitmapHeight = bitmap.getHeight();
-        //将绘制代码放入到canvas.saveLayer()和canvas.restore()之间
-        canvas.saveLayer(0, 0, bitmapWidth, bitmapHeight, null, Canvas.ALL_SAVE_FLAG);
-        //创建BitmapShader，用以绘制❤形
-        BitmapShader bitmapShader = new BitmapShader(bitmap, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
-        //将BitmapShader作为画笔paint绘图所使用的shader
-        paint.setShader(bitmapShader);
-        //用BitmapShader绘制矩形
-        //绘制普通椭圆
-        RectF rectF = new RectF(100,100,500,300);
-        canvas.drawOval(rectF,paint);
-        //将画笔的Xfermode设置为PorterDuff.Mode.MULTIPLY模式
-        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.ADD));
-        //创建LinearGradient，用以产生从左上角到右下角的颜色渐变效果
-        LinearGradient linearGradient = new LinearGradient(0, 0, bitmapWidth, bitmapHeight, Color.GREEN, Color.BLUE, Shader.TileMode.CLAMP);
-        //将创建LinearGradient作为画笔paint绘图所使用的shader
-        paint.setShader(linearGradient);
-        //用LinearGradient绘制矩形
-        canvas.drawRect(0, 0, bitmapWidth, bitmapHeight, paint);
-        //最后将画笔去除掉Xfermode
-        paint.setXfermode(null);
-        canvas.restore();
+        //Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
+        //int bitmapWidth = bitmap.getWidth();
+        //int bitmapHeight = bitmap.getHeight();
+        ////将绘制代码放入到canvas.saveLayer()和canvas.restore()之间
+        //canvas.saveLayer(0, 0, bitmapWidth, bitmapHeight, null, Canvas.ALL_SAVE_FLAG);
+        ////创建BitmapShader，用以绘制❤形
+        //BitmapShader bitmapShader = new BitmapShader(bitmap, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
+        ////将BitmapShader作为画笔paint绘图所使用的shader
+        //paint.setShader(bitmapShader);
+        ////用BitmapShader绘制矩形
+        ////绘制普通椭圆
+        //RectF rectF = new RectF(100,100,500,300);
+        //canvas.drawOval(rectF,paint);
+        ////将画笔的Xfermode设置为PorterDuff.Mode.MULTIPLY模式
+        //paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.ADD));
+        ////创建LinearGradient，用以产生从左上角到右下角的颜色渐变效果
+        //LinearGradient linearGradient = new LinearGradient(0, 0, bitmapWidth, bitmapHeight, Color.GREEN, Color.BLUE, Shader.TileMode.CLAMP);
+        ////将创建LinearGradient作为画笔paint绘图所使用的shader
+        //paint.setShader(linearGradient);
+        ////用LinearGradient绘制矩形
+        //canvas.drawRect(0, 0, bitmapWidth, bitmapHeight, paint);
+        ////最后将画笔去除掉Xfermode
+        //paint.setXfermode(null);
+        //canvas.restore();
 
         //梯度渐变渲染器
         //SweepGradient shader = new SweepGradient(w/2,h/2,new int[]{Color.RED,Color.CYAN,Color.YELLOW,
@@ -150,17 +150,18 @@ public class ShaderView extends View {
         //canvas.drawRect(0,0,w,h,paint);
 
         //组合渲染器
-        //Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
-        //
-        //BitmapShader bitmapShader = new BitmapShader(bitmap,Shader.TileMode.MIRROR,Shader.TileMode.MIRROR);
-        //
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
+
+        BitmapShader bitmapShader = new BitmapShader(bitmap,Shader.TileMode.MIRROR,Shader.TileMode.MIRROR);
+
+        RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.RED, Shader.TileMode.CLAMP);
         //RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.TRANSPARENT, Shader.TileMode.CLAMP);
-        //
-        //ComposeShader composeShader = new ComposeShader(bitmapShader,radialShader,new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
-        //
-        //paint.setShader(composeShader);
-        //
-        //canvas.drawCircle(w/2,h/2,radius,paint);
+
+        ComposeShader composeShader = new ComposeShader(bitmapShader,radialShader,new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
+
+        paint.setShader(composeShader);
+
+        canvas.drawCircle(w/2,h/2,radius,paint);
 
 
     }
