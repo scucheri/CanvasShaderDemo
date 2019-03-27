@@ -115,7 +115,7 @@ public class PorterDuffXfermodeView extends View {
         canvas.drawCircle(r, r, r, paint);
         //使用CLEAR作为PorterDuffXfermode绘制蓝色的矩形
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.CLEAR));// clear 到背景颜色那一层
-        paint.setColor(0xFF66AAFF);
+        //paint.setColor(0xFF66AAFF);
         canvas.drawCircle(r*3f-50, r, r , paint);
         //最后将画笔去除Xfermode
         paint.setXfermode(null);

@@ -48,4 +48,7 @@ public class MainActivity extends AppCompatActivity {
     public void porterDuff(View v){
         startActivity(new Intent(this,PorterDuffXfermodeActivity.class));
     }
+    public void composeShader(View v){
+        startActivity(new Intent(this,ComposeShaderActivity.class));
+    }
 }

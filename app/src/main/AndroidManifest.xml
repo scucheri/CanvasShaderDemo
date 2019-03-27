@@ -27,6 +27,7 @@
         <activity android:name=".BitmapActivity"></activity>
         <activity android:name=".ShaderActivity"></activity>
         <activity android:name="PorterDuffXfermodeActivity"></activity>
+        <activity android:name=".ComposeShaderActivity"></activity>
     </application>
 
 </manifest>

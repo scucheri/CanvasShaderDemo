@@ -3,6 +3,24 @@
 
     <item
         is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_832b155a45b89a6612f9c741e0a09072085884cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_2411b2d6231bfc1e6f302c63922de156a9cb280c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,30 +57,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_803ec73d5ba86fa83e4a362dd991dbd29b9409e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_a886fafe2870ce702e747ac53054713559da9385.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="914f5d3e3ace66080e59613708f06d129a222e25">
         <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_0f03412d81ac477d3d9f0d0996c1be0454723c05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_be206a616d6fcf74ba962313a682986de5a0a122.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_674b98ffc5db89444c65f14dabc9dfa3df8a9bdd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,30 +102,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_14f9b82e6193957f9fd7da74448f04f363162c68.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_47169928a6dac9729d9b4fa2d3f56e3bf5372c9b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_079712c4b718d1749c146b4c2eebab8a3c6fad57.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_42f1faedc9da8fb977b2299abed3dbacb5d62589.jar" />
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_e5e2e83adba5d698e3d76589f694cc765f4a3283.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,6 +126,15 @@
         revision="25.0.3"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_d6b56672f315f704bd734b948a03409cb51063d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_8d517b5ea6e903fdd86deeb7947d78c47cf73c07.jar" />
     </item>
     <item
         is-multidex="false"
@@ -135,6 +153,114 @@
         revision="25.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_1bb129aab32a70f97fb268151ccc130e72582fbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_f1a3e2f6b9cc38fa6e4bf4e6743c10e841ef02ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.12/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b5635fcc2e7b4abde0c5f8880f36058b17d7727e">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.github.CymChad-BaseRecyclerViewAdapterHelper-2.9.12_49ac2892e043b3c65ddfb533ca621da00d30a9d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_b8b1765f8fd0a42663a486439df3ea09e3f57e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_803ec73d5ba86fa83e4a362dd991dbd29b9409e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_298c19b176e0e791e5f219fbc4f25ad8a51497dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_a886fafe2870ce702e747ac53054713559da9385.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_88b1617b65a4a4c3afe30e1e8c5c307ff8913bd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_f44d8e49e5ac54c38dc88ef56d60b902af54bd01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_14f9b82e6193957f9fd7da74448f04f363162c68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/bytedance/code/android/CanvasShaderDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_d88fe489b89a28952d3a19b6f97538e11c68f7ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_079712c4b718d1749c146b4c2eebab8a3c6fad57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/bytedance/code/android/CanvasDemo/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_42f1faedc9da8fb977b2299abed3dbacb5d62589.jar" />
     </item>
 
 </items>
