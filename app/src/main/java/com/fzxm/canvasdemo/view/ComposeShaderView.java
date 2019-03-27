@@ -59,7 +59,7 @@ public class ComposeShaderView extends View {
         Paint mPaint = new Paint();
 
         mPaint.setShader(mComposeShader);
-        canvas.drawCircle(240, 360, 200, mPaint);
+        canvas.drawCircle(240, bitwidth/2, bitheight/2, mPaint);
 
     }
 
