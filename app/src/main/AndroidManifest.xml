@@ -28,6 +28,7 @@
         <activity android:name=".ShaderActivity"></activity>
         <activity android:name="PorterDuffXfermodeActivity"></activity>
         <activity android:name=".ComposeShaderActivity"></activity>
+        <activity android:name=".WaveViewActivity"></activity>
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Shader;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import com.fzxm.canvasdemo.R;
 
@@ -120,6 +121,30 @@ public class PorterDuffXfermodeView extends View {
         //最后将画笔去除Xfermode
         paint.setXfermode(null);
         canvas.restoreToCount(layerId);
+
+
+        //test matrix
+        //Matrix matrix  = new Matrix();
+        //float[] points=new float[]{10.0f,10.0f};
+        //matrix.postScale(2.0f,3.0f);// 
+        // matrix.postTranslate(8.0f,7.0f);//  
+        // matrix.mapPoints(points);
+        // Log.i("test",points[0]+"");
+        // Log.i("test",points[1]+"");
+
+        //test matrix
+        Matrix matrix  = new Matrix();
+        float[] points=new float[]{10.0f,10.0f};
+        matrix.preScale(2.0f,3.0f);// 
+        matrix.setScale(3,4);
+        matrix.postScale(2,1);
+        matrix.preTranslate(8.0f,7.0f);//  
+        matrix.mapPoints(points);
+        Log.i("test",points[0]+"");
+        Log.i("test",points[1]+"");
+
+        Log.i("test",canvas.isHardwareAccelerated() + "");
+
     }
 
 

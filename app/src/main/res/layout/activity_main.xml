@@ -1,118 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:divider="@drawable/divider"
-    android:showDividers="middle|end"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.fzxm.canvasdemo.MainActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="circle"
-        android:gravity="center_vertical"
-        android:padding="10dp"
-        android:textSize="20sp"
-        android:text="圆"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="rect"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="矩形"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="roundRect"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="圆角矩形"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="oval"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="椭圆"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="arc"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="弧"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="text"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="文字"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="point"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="点"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="line"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="线"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="path"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="路径"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="bitmap"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="图片"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="shader"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="着色器"/>
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"
+        android:orientation="vertical"
+        android:showDividers="middle|end">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="porterDuff"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="组合渲染"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="circle"
+            android:padding="10dp"
+            android:text="圆"
+            android:textSize="20sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="composeShader"
-        android:gravity="center_vertical"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:text="组合shader"/>
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="rect"
+            android:padding="10dp"
+            android:text="矩形"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="roundRect"
+            android:padding="10dp"
+            android:text="圆角矩形"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="oval"
+            android:padding="10dp"
+            android:text="椭圆"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="arc"
+            android:padding="10dp"
+            android:text="弧"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="text"
+            android:padding="10dp"
+            android:text="文字"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="point"
+            android:padding="10dp"
+            android:text="点"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="line"
+            android:padding="10dp"
+            android:text="线"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="path"
+            android:padding="10dp"
+            android:text="路径"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="bitmap"
+            android:padding="10dp"
+            android:text="图片"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="shader"
+            android:padding="10dp"
+            android:text="着色器"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="porterDuff"
+            android:padding="10dp"
+            android:text="组合渲染"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="composeShader"
+            android:padding="10dp"
+            android:text="组合shader"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="waveView"
+            android:padding="10dp"
+            android:text="贝塞尔曲线做wave"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

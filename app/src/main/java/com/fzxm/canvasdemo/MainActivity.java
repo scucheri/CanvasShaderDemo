@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import com.fzxm.canvasdemo.view.WaveView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,5 +51,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void composeShader(View v){
         startActivity(new Intent(this,ComposeShaderActivity.class));
+    }
+    public void waveView(View v){
+        startActivity(new Intent(this,WaveViewActivity.class));
     }
 }
