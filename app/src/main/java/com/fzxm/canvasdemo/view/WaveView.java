@@ -8,6 +8,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
@@ -62,6 +63,7 @@ public class WaveView extends View implements View.OnClickListener{
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        Log.i("wave view offset",mOffset + "");
         mPath.reset();
         //位移到屏幕外左侧一个波长的地方，开始绘制水波
         mPath.moveTo(-mWaveLength + mOffset, mCenterY);
