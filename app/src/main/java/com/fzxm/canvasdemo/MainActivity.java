@@ -55,4 +55,7 @@ public class MainActivity extends AppCompatActivity {
     public void waveView(View v){
         startActivity(new Intent(this,WaveViewActivity.class));
     }
+    public void rotateImage(View v){
+        startActivity(new Intent(this,RotateImageActivity.class));
+    }
 }

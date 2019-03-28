@@ -137,5 +137,14 @@
             android:padding="10dp"
             android:text="贝塞尔曲线做wave"
             android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:onClick="rotateImage"
+            android:padding="10dp"
+            android:text="旋转动画"
+            android:textSize="20sp" />
     </LinearLayout>
 </ScrollView>
