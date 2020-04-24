@@ -108,15 +108,15 @@ public class ShaderView extends View {
         //paint.setShader(sweepGradient);
         //canvas.drawCircle(centerX, centerY, radius/2, paint);
 
-        //int canvasWidth = canvas.getWidth();
-        //int canvasHeight = canvas.getHeight();
-        //float centerX = canvasWidth / 2f;
-        //float centerY = canvasHeight / 2f;
-        //int[] colors = {Color.RED, Color.GREEN, Color.BLUE};
-        //float[] positions = {0.25f, 0.5f, 0.75f};
-        //SweepGradient sweepGradient = new SweepGradient(centerX, centerY, colors, positions);
-        //paint.setShader(sweepGradient);
-        //canvas.drawCircle(centerX, centerY, radius/2, paint);
+        int canvasWidth = canvas.getWidth();
+        int canvasHeight = canvas.getHeight();
+        float centerX = canvasWidth / 2f;
+        float centerY = canvasHeight / 2f;
+        int[] colors = {Color.RED, Color.GREEN, Color.BLUE};
+        float[] positions = {0.25f, 0.5f, 0.75f};
+        SweepGradient sweepGradient = new SweepGradient(centerX, centerY, colors, positions);
+        paint.setShader(sweepGradient);
+        canvas.drawCircle(centerX, centerY, radius/2, paint);
 
         //Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
         //int bitmapWidth = bitmap.getWidth();
@@ -150,18 +150,18 @@ public class ShaderView extends View {
         //canvas.drawRect(0,0,w,h,paint);
 
         //组合渲染器
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
-
-        BitmapShader bitmapShader = new BitmapShader(bitmap,Shader.TileMode.MIRROR,Shader.TileMode.MIRROR);
-
-        RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.RED, Shader.TileMode.CLAMP);
-        //RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.TRANSPARENT, Shader.TileMode.CLAMP);
-
-        ComposeShader composeShader = new ComposeShader(bitmapShader,radialShader,new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
-
-        paint.setShader(composeShader);
-
-        canvas.drawCircle(w/2,h/2,radius,paint);
+        //Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.music);
+        //
+        //BitmapShader bitmapShader = new BitmapShader(bitmap,Shader.TileMode.MIRROR,Shader.TileMode.MIRROR);
+        //
+        //RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.RED, Shader.TileMode.CLAMP);
+        ////RadialGradient radialShader = new RadialGradient(radius,radius,radius,Color.BLACK,Color.TRANSPARENT, Shader.TileMode.CLAMP);
+        //
+        //ComposeShader composeShader = new ComposeShader(bitmapShader,radialShader,new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
+        //
+        //paint.setShader(composeShader);
+        //
+        //canvas.drawCircle(w/2,h/2,radius,paint);
 
 
     }

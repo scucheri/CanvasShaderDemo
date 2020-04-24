@@ -11,9 +11,4 @@
     <com.fzxm.canvasdemo.view.PorterDuffXfermodeView
         android:layout_width="100dp"
         android:layout_height="100dp"/>
-
-    <com.fzxm.canvasdemo.view.PorterDuffXfermodeView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="-10dp"/>
 </LinearLayout>

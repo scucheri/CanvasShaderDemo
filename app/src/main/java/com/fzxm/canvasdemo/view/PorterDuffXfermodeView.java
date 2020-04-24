@@ -107,7 +107,7 @@ public class PorterDuffXfermodeView extends View {
         int canvasHeight = canvas.getHeight();
         int layerId = canvas.saveLayer(0, 0, canvasWidth, canvasHeight, null, Canvas.ALL_SAVE_FLAG);
         int r = canvasWidth / 2;
-        //正常绘制黄色的圆形
+        //根据图片生成bitmapshader
         paint.setColor(0xFFFFCC44);
         Bitmap bitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.xihu));
         bitmap = scaleBitmap(bitmap,2*r,2*r);
@@ -116,7 +116,6 @@ public class PorterDuffXfermodeView extends View {
         canvas.drawCircle(r, r, r, paint);
         //使用CLEAR作为PorterDuffXfermode绘制蓝色的矩形
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.CLEAR));// clear 到背景颜色那一层
-        //paint.setColor(0xFF66AAFF);
         canvas.drawCircle(r*3f-50, r, r , paint);
         //最后将画笔去除Xfermode
         paint.setXfermode(null);
