@@ -122,6 +122,8 @@ public class PorterDuffXfermodeView extends View {
         canvas.restoreToCount(layerId);
 
 
+
+
         //test matrix
         //Matrix matrix  = new Matrix();
         //float[] points=new float[]{10.0f,10.0f};

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundRectImageViewStyle">
+        <!--圆角矩形图片的圆角大小, 单位dp-->
+        <attr format="dimension" name="cornerSize" />
+    </declare-styleable>
+
+</resources>
