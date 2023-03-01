@@ -13,7 +13,7 @@ import com.fzxm.canvasdemo.R;
 public class RotatingImageView extends AppCompatImageView {
 
   private int rotationDegrees = 0;
-  private float scale;
+  private float scale = 0f;
   private int directionScale;
 
   public RotatingImageView(Context context) {
@@ -39,10 +39,12 @@ public class RotatingImageView extends AppCompatImageView {
 
   @Override
   protected void onDraw(Canvas canvas) {
+    //先把canvas的左上角移动到中心位置，再旋转
     canvas.translate(canvas.getWidth()/2, canvas.getHeight()/2);
-    canvas.rotate(rotation(3));
+    canvas.rotate(rotation(3)); // 以画布的左上角为中心做旋转，也就是原画布的中心位置为中心做旋转
     float scaleFactor = scale(0.01f);
     canvas.scale(scaleFactor, scaleFactor);
+    //canvas旋转完了再移回原来的位置
     canvas.translate(-canvas.getWidth()/2, -canvas.getHeight()/2);
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
       postInvalidate();
