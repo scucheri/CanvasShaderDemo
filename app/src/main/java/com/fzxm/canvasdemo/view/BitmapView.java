@@ -39,9 +39,5 @@ public class BitmapView extends View {
         //paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC));
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.cat);
         canvas.drawBitmap(bitmap,200,200,paint);
-
-
-
-
     }
 }

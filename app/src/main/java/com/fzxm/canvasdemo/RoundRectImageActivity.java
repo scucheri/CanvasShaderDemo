@@ -20,13 +20,7 @@ public class RoundRectImageActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        roundRectImageView.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Bitmap bitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.xihu));
-                roundRectImageView.setBitmap(bitmap);
-            }
-        }, 5000);
-
+        Bitmap bitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.xihu));
+        roundRectImageView.setBitmap(bitmap);
     }
 }

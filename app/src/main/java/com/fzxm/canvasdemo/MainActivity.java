@@ -61,4 +61,8 @@ public class MainActivity extends AppCompatActivity {
     public void rotateImage(View v){
         startActivity(new Intent(this,RotateImageActivity.class));
     }
+    public void testLottie(View v){
+        startActivity(new Intent(this,TestLottieActivity.class));
+    }
+
 }

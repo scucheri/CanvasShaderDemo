@@ -151,9 +151,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:onClick="rotateImage"
+            android:onClick="testLottie"
             android:padding="10dp"
-            android:text="旋转动画"
+            android:text="lottie测试"
             android:textSize="20sp" />
+
+
     </LinearLayout>
 </ScrollView>

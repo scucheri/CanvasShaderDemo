@@ -31,6 +31,7 @@
         <activity android:name=".WaveViewActivity"></activity>
         <activity android:name=".RotateImageActivity"></activity>
         <activity android:name=".RoundRectImageActivity"></activity>
+        <activity android:name=".TestLottieActivity"></activity>
     </application>
 
 </manifest>
